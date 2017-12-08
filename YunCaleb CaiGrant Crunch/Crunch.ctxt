@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ playCrunch()
+comment1.params=
+comment1.target=void\ crunchGame()
+comment2.params=prompt\ validInputs
+comment2.target=int\ userInputInt(java.lang.String,\ java.util.List)
+comment3.params=
+comment3.target=void\ playerTurn()
+comment4.params=
+comment4.target=void\ cpuTurn()
+comment5.params=
+comment5.target=void\ printSticks()
+comment6.params=
+comment6.target=int\ smartCpu()
+numComments=7

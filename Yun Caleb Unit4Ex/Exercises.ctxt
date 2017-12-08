@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ mexicoPop()
+comment2.params=
+comment2.target=int\ monthsUntilReady()
+comment3.params=num
+comment3.target=int\ addOdds(int)
+comment4.params=
+comment4.target=void\ printSum()
+comment5.params=num
+comment5.target=int\ sumDigits(int)
+comment6.params=size
+comment6.target=void\ drawBox(int)
+comment7.params=size
+comment7.target=void\ drawReverseWedge(int)
+comment8.params=size
+comment8.target=void\ printStarTriangle(int)
+numComments=9

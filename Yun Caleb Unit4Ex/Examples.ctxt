@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=void\ counter(int)
+comment1.params=num
+comment1.target=void\ counter2(int)
+comment2.params=
+comment2.target=void\ enterNum()
+comment3.params=
+comment3.target=void\ even()
+comment4.params=
+comment4.target=void\ hereAgain()
+comment5.params=rows
+comment5.target=void\ printStars(int)
+numComments=6

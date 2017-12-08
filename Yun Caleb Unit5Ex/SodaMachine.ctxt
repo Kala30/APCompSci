@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SodaMachine()
+comment1.params=price\ num
+comment1.target=SodaMachine(int,\ int)
+comment10.params=
+comment10.target=int\ getMaxCapacity()
+comment2.params=amt
+comment2.target=void\ insertMoney(int)
+comment3.params=
+comment3.target=boolean\ buySoda()
+comment4.params=
+comment4.target=int\ refundBalance()
+comment5.params=
+comment5.target=int\ getPrice()
+comment6.params=
+comment6.target=int\ getBalance()
+comment7.params=
+comment7.target=int\ getTotalMoney()
+comment8.params=
+comment8.target=int\ getNumberOfSodas()
+comment9.params=
+comment9.target=boolean\ refillMachine()
+numComments=11

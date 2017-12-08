@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=double\ absoluteValue(double)
+comment1.params=num
+comment1.target=boolean\ is0(int)
+comment2.params=
+comment2.target=void\ numPoem()
+comment3.params=month1\ day1\ year1\ month2\ day2\ year2
+comment3.target=boolean\ isLater(int,\ int,\ int,\ int,\ int,\ int)
+comment4.params=bp\ nb
+comment4.target=double\ getOrderTotal(int,\ int)
+comment5.params=r\ g\ b
+comment5.target=java.awt.Color\ bestMatch(int,\ int,\ int)
+numComments=6

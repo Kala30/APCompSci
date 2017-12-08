@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=month\ day\ year
+comment0.target=Calendars(int,\ int,\ int)
+comment1.params=
+comment1.target=boolean\ isValid()
+comment2.params=
+comment2.target=boolean\ isLeapYear()
+comment3.params=
+comment3.target=boolean\ isValidMonth()
+comment4.params=
+comment4.target=boolean\ isValidDay()
+comment5.params=
+comment5.target=int\ getTotalDays()
+comment6.params=
+comment6.target=int\ getDaysfromYear()
+comment7.params=
+comment7.target=int\ getDaysfromMonth()
+comment8.params=
+comment8.target=int\ getLeapDays()
+comment9.params=
+comment9.target=java.lang.String\ getDayOfWeek()
+numComments=10

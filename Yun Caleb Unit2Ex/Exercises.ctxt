@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=number
+comment1.target=void\ swapOnesTens(int)
+comment2.params=number
+comment2.target=void\ swapDigits(int)
+comment3.params=number
+comment3.target=int\ round(double)
+comment4.params=lower\ upper
+comment4.target=int\ randomInt(int,\ int)
+comment5.params=
+comment5.target=int\ random1To10()
+comment6.params=
+comment6.target=void\ average()
+comment7.params=
+comment7.target=void\ timeFromSeconds()
+numComments=8

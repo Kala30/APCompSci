@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ quickConvo()
+comment1.params=
+comment1.target=void\ guessNum()
+comment2.params=nJars
+comment2.target=double\ computeShippingCost(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=dogYears
+comment4.target=int\ convertToHumanAge(int)
+numComments=5
