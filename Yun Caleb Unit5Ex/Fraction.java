@@ -1,8 +1,8 @@
 /**
- *  Write a description of class Fraction here.
+ *  Fraction Class
  *
- *  @author (your name)
- *  @version (a version number or a date)
+ *  @author Caleb Yun
+ *  @version Created on 12/8/2017
  */
 public class Fraction
 {
@@ -14,11 +14,14 @@ public class Fraction
     public Fraction() {
         num = 0;
         denom = 1;
+        //this(0);
+        //this(0, 1);
     }
     
     public Fraction(int num) {
         this.num = num;
         this.denom = 1;
+        //this(num, 1);
     }
     
     public Fraction(int num, int denom)
@@ -31,10 +34,27 @@ public class Fraction
             throw new IllegalArgumentException("Fraction construction error: denominator is 0");
     }
     
+    public Fraction(Fraction other)
+    {
+        this.num = other.num;
+        this.denom = other.denom;
+        //this(other.num, other.denom);
+    }
+    
+    
     // Methods
+    
+    public Fraction add(Fraction input)
+    {
+        int num = (this.num * input.denom) + (input.num * this.denom);
+        int denom = this.denom * input.denom;
+        return new Fraction(num, denom);
+    }
+    
     // Setters
     
     // Getters
+    
     
     // *** private helper methods ************************
     //Reduces this fraction by the gcf and makes denom > 0
@@ -59,8 +79,7 @@ public class Fraction
     {
         if (n <= 0 || d <= 0)
         {
-            throw new IllegalArgumentException("gcf precondition failed: "
-                + n + ", " + d);
+            throw new IllegalArgumentException("gcf precondition failed: " + n + ", " + d);
         }
         if (n % d == 0)
             return d;
@@ -68,5 +87,10 @@ public class Fraction
             return n;
         else
             return gcf(n % d, d % n);
+    }
+    
+    public String toString()
+    {
+        return num + "/" + denom;
     }
 }
