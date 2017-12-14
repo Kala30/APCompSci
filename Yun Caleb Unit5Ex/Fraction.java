@@ -51,6 +51,24 @@ public class Fraction
         return new Fraction(num, denom);
     }
     
+    public Fraction add(int m)
+    {
+        int num  = this.num + (m * this.denom);
+        return new Fraction(num, this.denom);
+    }
+    
+    public Fraction multiply(Fraction input)
+    {
+        int num = input.num * this.num;
+        int denom = input.denom * this.denom;
+        return new Fraction(num, denom);
+    }
+    
+    public Fraction multiply(int m)
+    {
+        return new Fraction(this.num * m, this.denom);
+    }
+    
     // Setters
     
     // Getters

@@ -20,4 +20,20 @@ public class FractionTesterClass
         System.out.println(f3);
         System.out.println(f4);
     }
+    
+    public static void testArithmetic()
+    {
+        Fraction f1 = new Fraction(1, 2);
+        Fraction f2 = new Fraction(1, 3);
+        Fraction sum = f1.add(f2);
+        System.out.println(f1 + " + " + f2 + " = " + sum);
+        Fraction product = f1.multiply(f2);
+        System.out.println(f1 + " * " + f2 + " = " + product);
+        
+        int m = 5;
+        sum = f1.add(m);
+        System.out.println(f1 + " + " + m + " = " + sum);
+        product = f1.multiply(m);
+        System.out.println(f1 + " * " + m + " = " + product);
+    }
 }
