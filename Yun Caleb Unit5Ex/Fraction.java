@@ -7,6 +7,7 @@
 public class Fraction
 {
     // Field Variables
+    public static final int DFLT_DENOM = 10000;
     private int num;
     private int denom;
     
@@ -72,7 +73,10 @@ public class Fraction
     // Setters
     
     // Getters
-    
+    public double getValue()
+    {
+        return (double) num / denom;
+    }
     
     // *** private helper methods ************************
     //Reduces this fraction by the gcf and makes denom > 0
@@ -110,5 +114,10 @@ public class Fraction
     public String toString()
     {
         return num + "/" + denom;
+    }
+    
+    public static Fraction valueOf(double x)
+    {
+        return new Fraction((int) Math.round( x * DFLT_DENOM) , DFLT_DENOM);
     }
 }

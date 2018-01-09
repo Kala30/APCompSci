@@ -36,4 +36,19 @@ public class FractionTesterClass
         product = f1.multiply(m);
         System.out.println(f1 + " * " + m + " = " + product);
     }
+    
+    public static void testValues()
+    {
+        Fraction f1 = new Fraction(1, 5);
+        System.out.println(f1 + " = " + f1.getValue());
+        
+        Fraction f2 = new Fraction(1, 6);
+        System.out.println(f2 + " = " + f2.getValue());
+        
+        double d1 = 0.5;
+        System.out.println(d1 + " = " + Fraction.valueOf(d1));
+        
+        double d2 = f2.getValue();
+        System.out.println(d2 + " = " + Fraction.valueOf(d2));
+    }
 }
