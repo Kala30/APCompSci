@@ -1,16 +1,14 @@
 #BlueJ class context
-comment0.target=SoccerTeam
-comment0.text=\n\ U5D4\ Coding\ Exercise\ \#5\n\n\ @author\ Caleb\ Yun\n\ @version\ 1/9/2018\n
-comment1.params=other\ myScore\ otherScore
-comment1.target=void\ played(SoccerTeam,\ int,\ int)
+comment0.params=other\ myScore\ otherScore
+comment0.target=void\ played(SoccerTeam,\ int,\ int)
+comment1.params=
+comment1.target=void\ reset()
 comment2.params=
-comment2.target=void\ reset()
+comment2.target=void\ startTournament()
 comment3.params=
-comment3.target=void\ startTournament()
+comment3.target=int\ getPoints()
 comment4.params=
-comment4.target=int\ getPoints()
+comment4.target=int\ getTotalGames()
 comment5.params=
-comment5.target=int\ getTotalGames()
-comment6.params=
-comment6.target=int\ getTotalGoals()
-numComments=7
+comment5.target=int\ getTotalGoals()
+numComments=6

@@ -1,6 +1,5 @@
-
 /**
- * Test Fraction Class
+ * Fraction Class Tester
  * 
  * @author Caleb Yun
  * @version Created on 12/12/2017
@@ -50,5 +49,20 @@ public class FractionTesterClass
         
         double d2 = f2.getValue();
         System.out.println(d2 + " = " + Fraction.valueOf(d2));
+    }
+    
+    public static void testStaticStuff()
+    {
+        Fraction.resetFractionCounter();
+        
+        Fraction f1 = new Fraction(1, 5);
+        Fraction f2 = new Fraction(1, 5);
+        Fraction f3 = new Fraction(1, 5);
+        Fraction f4 = new Fraction(1, 5);
+        Fraction f5 = new Fraction(1, 5);
+        System.out.println("Fractions: " + Fraction.getFractionCounter());
+        
+        Fraction.resetFractionCounter();
+        System.out.println("Fractions: " + Fraction.getFractionCounter());
     }
 }

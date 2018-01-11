@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=Complex(double,\ double)
+comment1.params=a
+comment1.target=Complex(double)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=double\ getA()
+comment3.params=
+comment3.target=double\ getB()
+comment4.params=
+comment4.target=double\ abs()
+comment5.params=other
+comment5.target=Complex\ add(Complex)
+comment6.params=input
+comment6.target=Complex\ add(double)
+comment7.params=other
+comment7.target=Complex\ multiply(Complex)
+comment8.params=input
+comment8.target=Complex\ multiply(double)
+comment9.params=input
+comment9.target=boolean\ equals(Complex)
+numComments=11

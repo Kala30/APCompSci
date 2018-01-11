@@ -10,6 +10,7 @@ public class Fraction
     public static final int DFLT_DENOM = 10000;
     private int num;
     private int denom;
+    private static int fractionCounter = 0;
     
     // Constructors
     public Fraction() {
@@ -17,12 +18,14 @@ public class Fraction
         denom = 1;
         //this(0);
         //this(0, 1);
+        fractionCounter++;
     }
     
     public Fraction(int num) {
         this.num = num;
         this.denom = 1;
         //this(num, 1);
+        fractionCounter++;
     }
     
     public Fraction(int num, int denom)
@@ -31,6 +34,7 @@ public class Fraction
             this.num = num;
             this.denom = denom;
             reduce();
+            fractionCounter++;
         } else
             throw new IllegalArgumentException("Fraction construction error: denominator is 0");
     }
@@ -71,11 +75,20 @@ public class Fraction
     }
     
     // Setters
+    public static void resetFractionCounter()
+    {
+        fractionCounter = 0;
+    }
     
     // Getters
     public double getValue()
     {
         return (double) num / denom;
+    }
+    
+    public static int getFractionCounter()
+    {
+        return fractionCounter;
     }
     
     // *** private helper methods ************************
