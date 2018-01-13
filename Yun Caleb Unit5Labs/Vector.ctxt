@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Vector
+comment0.text=\n\ Unit\ 5\ Labs\ Pt.\ 2\:\ Vector\ Class\n\n\ @author\ Caleb\ Yun\n\ @version\ 1/13/2018\n
+comment1.params=magnitude\ direction
+comment1.target=Vector(double,\ double)
+comment2.params=
+comment2.target=Vector()
+comment3.params=
+comment3.target=double\ getMagnitude()
+comment4.params=
+comment4.target=double\ getDirection()
+comment5.params=
+comment5.target=double\ getXComponent()
+comment6.params=
+comment6.target=double\ getYComponent()
+comment7.params=other
+comment7.target=Vector\ addVector(Vector)
+comment8.params=other
+comment8.target=boolean\ equals(Vector)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
