@@ -22,14 +22,12 @@ public class SoccerTeam
         if (myScore > otherScore) // Win
         {
             this.wins++;
-            if (other.losses > 0)
-                other.losses--;
+            other.losses++;
         }
         else if (myScore < otherScore) // Loss
         {
             other.wins++;
-            if (this.losses > 0)
-                this.losses--;
+            this.losses++;
         }
         else // Tie
         {
