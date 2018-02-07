@@ -16,3 +16,6 @@ Iterative Statements (Loops)
 
 ## Unit 5
 Object Oriented Programming
+
+## Unit 6
+Strings

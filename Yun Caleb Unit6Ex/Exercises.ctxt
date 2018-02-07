@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=ssn
+comment0.target=java.lang.String\ removeDashes(java.lang.String)
+comment1.params=str
+comment1.target=java.lang.String\ scroll(java.lang.String)
+comment2.params=name
+comment2.target=java.lang.String\ convertName(java.lang.String)
+comment3.params=str
+comment3.target=java.lang.String\ negateString(java.lang.String)
+comment4.params=str
+comment4.target=java.lang.String\ findCommentMarks(java.lang.String)
+comment5.params=str\ cutOut
+comment5.target=java.lang.String\ cutOut(java.lang.String,\ java.lang.String)
+comment6.params=str
+comment6.target=boolean\ onlyDigits(java.lang.String)
+numComments=7
