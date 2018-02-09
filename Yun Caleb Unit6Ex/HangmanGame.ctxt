@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=answer
+comment0.target=HangmanGame(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getWord()
+comment2.params=
+comment2.target=java.lang.String\ getGuessed()
+comment3.params=
+comment3.target=java.lang.String\ getTried()
+comment4.params=letter
+comment4.target=int\ tryLetter(char)
+numComments=5

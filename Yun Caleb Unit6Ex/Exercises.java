@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 /**
  * Write a description of class Exercises here.
@@ -76,5 +77,24 @@ public class Exercises
         
         System.out.println(s1.compareTo(s2));
         System.out.println(n1 - n2);
+    }
+    
+    // Exercises 3
+    
+    public static String shuffle(String abc)
+    {
+        StringBuffer shuffled = new StringBuffer(abc);
+        int n = shuffled.length()-1;
+        Random rand = new Random();
+        while(n > 1)
+        {
+            int randN = rand.nextInt(n);
+            String randStr = Character.toString(shuffled.charAt(randN));
+            String nStr = Character.toString(shuffled.charAt(n));
+            shuffled.replace(n, n+1, randStr);
+            shuffled.replace(randN, randN+1, nStr);
+            n--;
+        }
+        return shuffled.toString();
     }
 }
