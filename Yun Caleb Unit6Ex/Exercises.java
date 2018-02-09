@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * Write a description of class Exercises here.
@@ -5,6 +6,7 @@
  * @author Iain Ro, Caleb Yun
  * @version 2/7/2018
  */
+
 public class Exercises
 {
     public static String removeDashes(String ssn)
@@ -43,16 +45,36 @@ public class Exercises
     {
         return str.replaceFirst(cutOut, "");
     }
+    
     //Exercises 2
     
     public static boolean onlyDigits(String str)
     {
-        String count = "";
-        for(int i = 0; i<str.length(); i++)
+        char c;
+        
+        for(int i = 0; i < str.length(); i++)
         {
-            count += "9";
+            c = str.charAt(i);
+            if (!(c == '0' || c == '1' || c == '2' || c == '3' || c == '4' || c == '5' || c == '6' || c == '7' || c == '8' || c == '9')) {
+                return false;
+            }
         }
-        if(str.compareTo(count) > 0)return false;
-        else return true;
+        return true;
+    }
+    
+    public static void testHyp()
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("s1 = ");
+        String s1 = sc.nextLine();
+        System.out.print("s2 = ");
+        String s2 = sc.nextLine();
+        
+        int n1 = Integer.parseInt(s1);
+        int n2 = Integer.parseInt(s2);
+        
+        System.out.println(s1.compareTo(s2));
+        System.out.println(n1 - n2);
     }
 }
