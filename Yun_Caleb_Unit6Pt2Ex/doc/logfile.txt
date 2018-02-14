@@ -1,0 +1,35 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;\\nhs-fp\data$\STUDENT\19yuncaleb\My Documents\BlueJ\Yun_Caleb_Unit6Pt2Ex
+-d
+\\nhs-fp\data$\STUDENT\19yuncaleb\My Documents\BlueJ\Yun_Caleb_Unit6Pt2Ex\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+\\nhs-fp\data$\STUDENT\19yuncaleb\My Documents\BlueJ\Yun_Caleb_Unit6Pt2Ex\Practice.java
+<---- end of javadoc command ---->
+Loading source file \\nhs-fp\data$\STUDENT\19yuncaleb\My Documents\BlueJ\Yun_Caleb_Unit6Pt2Ex\Practice.java...
+\\nhs-fp\data$\STUDENT\19yuncaleb\My Documents\BlueJ\Yun_Caleb_Unit6Pt2Ex\Practice.java:77: error: not a statement
+        System.out,printf("Date: %02d/%02d/%d Amount = %7.2f\n", m, d, y, amt);
+              ^
+\\nhs-fp\data$\STUDENT\19yuncaleb\My Documents\BlueJ\Yun_Caleb_Unit6Pt2Ex\Practice.java:77: error: ';' expected
+        System.out,printf("Date: %02d/%02d/%d Amount = %7.2f\n", m, d, y, amt);
+                  ^
+2 errors
