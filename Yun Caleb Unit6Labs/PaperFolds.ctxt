@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=fold
+comment0.target=java.lang.String\ paperFolds(int)
+comment0.text=\r\n\ This\ reursive\ method\ takes\ an\ int\ for\ the\ number\ of\ folds\r\n\ It\ returns\ a\ string,\ showing\ how\ the\ folds\ are\ on\ a\ paper\r\n\ @param\ number\ of\ folds\r\n\ @return\ the\ final\ pattern\ of\ folds\r\n
+comment1.params=folds
+comment1.target=java.lang.String\ reverseAndFlip(java.lang.String)
+comment1.text=\r\n\ This\ recursive\ method\ takes\ in\ a\ String\ for\ folds,\ and\ returns\ a\ String\ that\ is\ both\ reversed,\ and\ flipped\r\n\ @param\ folds\ is\ the\ given\ String\r\n\ @return\ flipped\ and\ reversed\ string\r\n
+comment2.params=fold
+comment2.target=char\ flip(char)
+comment2.text=\r\n\ This\ method\ flips\ the\ char\ from\ a\ 'v'\ to\ a\ '^'\ and\ vice\ versa\r\n\ @param\ fold\ is\ a\ 'v'\ or\ a\ '^'\r\n\ @return\ flipped\ char\r\n
+numComments=3

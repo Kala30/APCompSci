@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=word
+comment0.target=java.lang.String\ translateWord(java.lang.String)
+comment0.text=\r\n\ Anslatestray\ ingstray\ otay\ igpay\ atinlay.\r\n\ \r\n\ @param\ ordway\ ordway\ otay\ ebay\ anslatedtray\r\n\ @return\ ordway\ anslatedtray\ ordway\r\n
+comment1.params=c
+comment1.target=boolean\ isVowel(char)
+comment1.text=\r\n\ Checks\ if\ char\ is\ a\ vowel.\r\n\ @param\ c\ inputted\ char\r\n\ @return\ boolean\ true\ if\ is\ a\ vowel\r\n
+numComments=2
