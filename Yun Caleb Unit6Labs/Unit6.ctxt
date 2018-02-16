@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Unit6
+comment0.text=\n\ Unit\ 6\ Labs\ Part\ 1\n\n\ @author\ Iain\ Ro,\ Caleb\ Yun\n\ @version\ 2/15/2018\n
+comment1.params=name
+comment1.target=java.lang.String\ capitalize(java.lang.String)
+comment1.text=\n\ Correctly\ capitalizes\ names.\n\ \n\ @param\ name\ \ \ \ Assumed\ to\ be\ single\ word\n\ @return\ Name\ capitalized\n
+comment2.params=word
+comment2.target=boolean\ isPalindrome(java.lang.String)
+comment2.text=\n\ Tests\ if\ word\ is\ a\ palindrome\ recursively.\n\ \n\ @param\ word\ \ Word\ to\ be\ tested\n\ @return\ True\ or\ false\n
+numComments=3
