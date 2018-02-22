@@ -1,12 +1,14 @@
 #BlueJ class context
-comment0.params=answer
-comment0.target=HangmanGame(java.lang.String)
-comment1.params=
-comment1.target=java.lang.String\ getWord()
+comment0.target=HangmanGame
+comment0.text=\n\ Core\ logic\ for\ Hangman\ Game.\n\ \n\ @author\ Caleb\ Yun,\ Iain\ Ro\n\ @version\ February\ 9,\ 2018\n
+comment1.params=answer
+comment1.target=HangmanGame(java.lang.String)
 comment2.params=
-comment2.target=java.lang.String\ getGuessed()
+comment2.target=java.lang.String\ getWord()
 comment3.params=
-comment3.target=java.lang.String\ getTried()
-comment4.params=letter
-comment4.target=int\ tryLetter(char)
-numComments=5
+comment3.target=java.lang.String\ getGuessed()
+comment4.params=
+comment4.target=java.lang.String\ getTried()
+comment5.params=letter
+comment5.target=int\ tryLetter(char)
+numComments=6

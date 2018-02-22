@@ -10,21 +10,34 @@ import java.util.Random;
 
 public class Exercises
 {
+    /**
+     * Removes dashes from a given string.
+     */
     public static String removeDashes(String ssn)
     {
         return ssn.replace("-", "");
     }
     
+    /**
+     * Removes the first character of a string and appends to the end.
+     */
     public static String scroll(String str)
     {
         return str.substring(1) + str.charAt(0);
     }
     
+    /**
+     * Convert name from "Last, First" to "First Last".
+     */
     public static String convertName(String name)
     {
         return name.substring(name.indexOf(",") + 2) + " " + name.substring(0, name.indexOf(",") - 1);        
     }
     
+    /**
+     * Inverts a string with only binary digits.
+     * 0s become 1s and 1s become 0s.
+     */
     public static String negateString(String str)
     {
         str = str.replace("0", "a");
@@ -32,6 +45,9 @@ public class Exercises
         return str.replace("0", "1");
     }
     
+    /**
+     * Returns string stripped of comments and text between comment marks.
+     */
     public static String findCommentMarks(String str)
     {
         int first = str.indexOf("/*");
@@ -42,13 +58,18 @@ public class Exercises
             return str;
     }
     
+    /**
+     * 
+     */
     public static String cutOut(String str, String cutOut)
     {
         return str.replaceFirst(cutOut, "");
     }
     
     //Exercises 2
-    
+    /**
+     * Checks if string contains only digits.
+     */
     public static boolean onlyDigits(String str)
     {
         char c;
@@ -63,6 +84,9 @@ public class Exercises
         return true;
     }
     
+    /**
+     * Test hypothesis if s1.compareTo(s2) and (n1 - n2) are always the same
+     */
     public static void testHyp()
     {
         Scanner sc = new Scanner(System.in);
@@ -80,7 +104,9 @@ public class Exercises
     }
     
     // Exercises 3
-    
+    /**
+     * Randomly shuffles characters in a string.
+     */
     public static String shuffle(String abc)
     {
         StringBuffer shuffled = new StringBuffer(abc);

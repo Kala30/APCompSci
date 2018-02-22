@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class HangmanGame here.
+ * Core logic for Hangman Game.
  * 
  * @author Caleb Yun, Iain Ro
  * @version February 9, 2018
