@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=molecule
+comment0.target=FunWithChemistry(java.lang.String)
+comment0.text=\r\n\ Constructor\ that\ initializes\ moleculeWeight.\r\n\ \r\n\ @param\ molecule\ \ String\ containing\ molecule\ formula.\r\n
+comment1.params=element
+comment1.target=double\ elementWeight(java.lang.String)
+comment1.text=\r\n\ Converts\ a\ string\ with\ single\ element\ and\ number\ of\ atoms\ to\ mass.\r\n\ \r\n\ @param\ element\ \ \ String\ with\ element\ symbol\ and\ number\ of\ atoms.\r\n\ @return\ mass\ \ \ \ \ Mass\ of\ elements\ times\ amount.\r\n
+comment2.params=molecule
+comment2.target=void\ parseMolecule(java.lang.String)
+comment2.text=\r\n\ Parses\ molecule\ in\ string\ and\ adds\ massses\ to\ moleculeWeight.\r\n\ \r\n\ @param\ molecule\ String\ containing\ chemical\ formula.\r\n
+comment3.params=
+comment3.target=double\ getMoleculeWeight()
+comment3.text=\r\n\ Getter\ for\ moleculeWeight.\r\n\ \r\n\ @return\ moleculeWeight\r\n
+comment4.params=moles
+comment4.target=double\ molesToGrams(double)
+comment4.text=\r\n\ Converts\ moleculeWeight\ to\ grams.\r\n\ \r\n\ @param\ moles\r\n\ @return\ grams\r\n
+comment5.params=grams
+comment5.target=double\ gramsToMoles(double)
+comment5.text=\r\n\ Converts\ moleculeWeight\ to\ moles.\r\n\ \r\n\ @param\ grams\r\n\ @return\ moles\r\n
+numComments=6

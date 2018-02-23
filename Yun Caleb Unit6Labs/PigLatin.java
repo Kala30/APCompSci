@@ -20,7 +20,7 @@ public class PigLatin
             return word.substring(2) + "quay";
         }
         
-        for(int i = 0; i<word.length(); i++)
+        for(int i = 0; i < word.length(); i++)
         {
             if(word.charAt(i) == 'y' && i != 0)return word.substring(i) + word.substring(0, i) + "ay";
             else if(isVowel(word.charAt(i)) && i ==0)

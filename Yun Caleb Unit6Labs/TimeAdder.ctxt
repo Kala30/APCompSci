@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=time
+comment0.target=int\ makeIntoSeconds(java.lang.String)
+comment0.text=\r\n\ Converts\ the\ String\ time\ into\ seconds\r\n\ @param\ time\ \ time\ in\ form\ hh\:mm\:ss\r\n\ @return\ seconds\ time\ in\ seconds\r\n
+comment1.params=seconds
+comment1.target=java.lang.String\ timeString(int)
+comment1.text=\r\n\ Converts\ int\ seconds\ into\ a\ time\ \r\n\ @param\ seconds\ time\ in\ seconds\r\n\ @return\ time\ String\ time\ in\ hh\:mm\:ss\r\n
+comment2.params=time1\ time2
+comment2.target=java.lang.String\ addTimes(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Takes\ two\ times,\ and\ adds\ them\ together\r\n\ @param\ time1\ 1st\ String\ time\ in\ the\ form\ hh\:mm\:ss\r\n\ @param\ time2\ 2nd\ String\ time\ in\ the\ form\ hh\:mm\:ss\r\n\ @return\ The\ sum\ of\ the\ two\ strings\ in\ the\ form\ hh\:mm\:ss\r\n
+numComments=3
