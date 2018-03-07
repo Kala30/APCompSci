@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Priority
+comment0.text=\n\ Unit\ 7\ Exercises\ \#2\:\ Priority\ Interface\n\n\ @author\ Caleb\ Yun\n\ @version\ 3/6/2018\n
+comment1.params=priority
+comment1.target=void\ setPriority(int)
+comment1.text=\n\ Set\ the\ priority\ of\ an\ object.\n\n\ @param\ \ Priority\ as\ integer.\n
+comment2.params=
+comment2.target=int\ getPriority()
+comment2.text=\n\ Gets\ the\ value\ of\ priority.\n\ \n\ @return\ \ Priority\ as\ integer.\n
+numComments=3
