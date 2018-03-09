@@ -8,6 +8,8 @@
  */
 public interface Complexity
 {
+    final int DEFAULT_COMPLEXITY = 1;
+    
     public void setComplexity(int complexity);
     
     public int getComplexity();

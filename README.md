@@ -12,10 +12,13 @@ Objects and Primitive Data Types
 Boolean Expressions and if-else Statements
 
 ## Unit 4
-Iterative Statements (Loops)
+Iterative Statements
 
 ## Unit 5
 Object Oriented Programming
 
 ## Unit 6
 Strings
+
+## Unit 7
+Interfaces

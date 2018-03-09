@@ -1,16 +1,14 @@
 #BlueJ class context
-comment0.target=Lockable
-comment0.text=\n\ U7\ Assignment\ \#3\:\ Lockable\ Interface\n\n\ @author\ Caleb\ Yun\n\ @version\ 3/8/2018\n
+comment0.params=key
+comment0.target=void\ setKey(int)
+comment0.text=\r\n\ Establishes\ the\ key.\r\n\r\n\ @param\ \ key\ Key\ as\ an\ integer.\r\n
 comment1.params=key
-comment1.target=void\ setKey(int)
-comment1.text=\n\ Establishes\ the\ key.\n\n\ @param\ \ key\ Key\ as\ an\ integer.\n
+comment1.target=void\ lock(int)
+comment1.text=\r\n\ Locks\ the\ object\ only\ if\ key\ is\ correct.\r\n\ \r\n\ @param\ \ key\ Key\ as\ an\ integer.\r\n
 comment2.params=key
-comment2.target=void\ lock(int)
-comment2.text=\n\ Locks\ the\ object\ only\ if\ key\ is\ correct.\n\ \n\ @param\ \ key\ Key\ as\ an\ integer.\n
-comment3.params=key
-comment3.target=void\ unlock(int)
-comment3.text=\n\ Unlocks\ the\ object\ only\ if\ key\ is\ correct.\n\ \n\ @param\ \ key\ Key\ as\ an\ integer.\n
-comment4.params=
-comment4.target=boolean\ locked()
-comment4.text=\n\ Checks\ if\ object\ is\ locked.\n\ \n\ @return\ \ \ true\ ->\ locked\ ;\ false\ ->\ unlocked\n
-numComments=5
+comment2.target=void\ unlock(int)
+comment2.text=\r\n\ Unlocks\ the\ object\ only\ if\ key\ is\ correct.\r\n\ \r\n\ @param\ \ key\ Key\ as\ an\ integer.\r\n
+comment3.params=
+comment3.target=boolean\ locked()
+comment3.text=\r\n\ Checks\ if\ object\ is\ locked.\r\n\ \r\n\ @return\ \ \ true\ ->\ locked\ ;\ false\ ->\ unlocked\r\n
+numComments=4

@@ -68,22 +68,34 @@ public class Coin implements Lockable
             return null;
         }
     }
-
+    
+    /**
+     * Sets the key.
+     */
     public void setKey(int key)
     {
         this.key = key;
     }
-
+    
+    /**
+     * Locks the object.
+     */
     public void lock(int key)
     {
         isLocked = true;
     }
-
+    
+    /**
+     * Unlocks the object.
+     */
     public void unlock(int key)
     {
         isLocked = false;
     }
 
+    /**
+     * Checks if object is locked.
+     */
     public boolean locked()
     {
         return isLocked;

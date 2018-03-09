@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getTemp()
+comment0.text=\r\n\ Get\ the\ current\ temperature.\r\n
+comment1.params=decrement
+comment1.target=void\ decreaseTemp(double)
+comment1.text=\r\n\ Decrease\ temperature\ by\ decrement\r\n
+comment2.params=increment
+comment2.target=void\ increaseTemp(double)
+comment2.text=\r\n\ Increase\ the\ temperature\ by\ increment.\r\n
+numComments=3

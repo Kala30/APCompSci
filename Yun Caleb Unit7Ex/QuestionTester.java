@@ -43,6 +43,8 @@ public class QuestionTester
             System.out.println ("Correct");
         else
             System.out.println ("No, the answer is " + q2.getAnswer());
+            
+        System.out.println("\nq1.compareTo(q2): " + q1.compareTo(q2));
     }
     
     static void question3()

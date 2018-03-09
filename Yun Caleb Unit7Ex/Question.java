@@ -1,23 +1,31 @@
 
 /**
  * Question.java
- * Represents a question (and its answer).
+ * Represents a question (and its answer) and a complexity level.
  * 
  * @author Caleb Yun
  * @version 3/5/2018
  */
-public class Question implements Complexity
+public class Question implements Complexity, Comparable
 {
     // Field Variables
     private String question, answer;
     private int complexityLevel;
     
-    // Constructor
+    // Constructors
     public Question (String query, String result)
     {
         question = query;
         answer = result;
-        complexityLevel = 1;
+        complexityLevel = DEFAULT_COMPLEXITY;
+    }
+    
+    // Constructor with complexity level
+    public Question (String query, String result, int complexity)
+    {
+        question = query;
+        answer = result;
+        complexityLevel = complexity;
     }
     
     // Setter
@@ -26,7 +34,7 @@ public class Question implements Complexity
         complexityLevel = level;
     }
     
-    // Getter
+    // Getters
     public int getComplexity ()
     {
         return complexityLevel;
@@ -42,7 +50,7 @@ public class Question implements Complexity
         return answer;
     }
     
-    // Other methdos
+    // Other methods
     public boolean answerCorrect (String candidateAnswer)
     {
         return answer.equals(candidateAnswer);
@@ -52,5 +60,12 @@ public class Question implements Complexity
     public String toString()
     {
         return question + "\n" + answer;
+    }
+    
+    // compareTo
+    // Compares by complexity level.
+    public int compareTo(Object obj)
+    {
+        return this.complexityLevel - ((Question)obj).getComplexity();
     }
 }
