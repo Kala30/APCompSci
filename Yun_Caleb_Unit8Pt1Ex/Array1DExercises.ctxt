@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Array1DExercises
+comment0.text=\n\ 1-D\ Arrays\ Exercises\n\n\ @author\ Caleb\ Yun\n\ @version\ 3/13/2018\n
+comment1.params=
+comment1.target=void\ fill1DArray()
+comment2.params=arr1\ arr2
+comment2.target=int[]\ merge(int[],\ int[])
+comment2.text=\n\ Returns\ an\ array\ of\ arr1\ and\ arr2\ merged\ together,\ starting\ with\ arr1\n\ \n\ @param\ arr1\ First\ array\ that\ will\ be\ merged\n\ @param\ arr2\ second\ array\ that\ will\ be\ merged\n\ @return\ An\ array\ containing\ all\ values\ of\ arr1\ and\ arr2\n
+comment3.params=arr\ val\ index
+comment3.target=int[]\ insert(int[],\ int,\ int)
+comment3.text=\n\ Returns\ arr,\ but\ with\ an\ inserted\ value\ at\ the\ given\ index\ (will\ be\ one\ element\ longer)\n\ \n\ @param\ arr\ The\ array\ that\ we\ will\ insert\ a\ value\ into\ --\ Precondition\:\ length\ >\ 1\n\ @param\ val\ The\ value\ to\ be\ inserted\n\ @param\ index\ where\ val\ will\ be\ inserted\ into\ --\ Precondition\:\ index\ exists\ in\ arr\n\ @return\ array\ arr\n
+comment4.params=arr
+comment4.target=void\ swap(int[])
+comment4.text=\n\ Takes\ an\ int\ array\ and\ swaps\ the\ first\ element\ with\ the\ last.\n\ \n\ @param\ arr\ Originial\ array\n\ @return\ Swapped\ array\n
+comment5.params=n
+comment5.target=int[]\ createWedge(int)
+comment5.text=\n\ Returns\ an\ array\ filled\ with\ values\n\ 1,\ 2,\ \u2026\ ,\ n-1,\ n,\ n-1,\ \u2026\ ,\ 2,\ 1.\n
+numComments=6
