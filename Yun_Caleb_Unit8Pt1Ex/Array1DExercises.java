@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * 1-D Arrays Exercises
@@ -75,7 +76,7 @@ public class Array1DExercises
         arr[0] = arr[arr.length - 1];
         arr[arr.length - 1] = first;
     }
-    
+
     /**
      * Returns an array filled with values
      * 1, 2, … , n-1, n, n-1, … , 2, 1.
@@ -92,5 +93,61 @@ public class Array1DExercises
             result[i] = n + n - i - 1;
         }
         return result;
+    }
+
+    /**
+     * 
+     */
+    public static int getToss()
+    {
+        Random rand = new Random();
+        return rand.nextInt(6) + 1;
+    }
+
+    /** Returns an array of the values obtained by tossing a number cube numTosses times.
+     * @param numTosses the number of tosses to be recorded
+     *          Precondition: numTosses > 0
+     * @return an array of  numTosses values
+     */
+    public static int[] getCubeTosses(int numTosses)
+    {
+        int[] result = new int[numTosses];
+        for (int i = 0; i < numTosses; i++)
+        {
+            result[i] = getToss();
+        }
+
+        return result;
+    }
+
+    /** Get the starting index of a longest run of two or more consecutive repeated values in the array values.
+     * @param values an array of integer values representing a series of number cube tosses
+     *  Precondition: values.length > 0
+     * @return  the starting index of a run of maximum size;
+     *         -1 if there is no run
+     */
+    public static int getLongestRun(int[] tosses)
+    {
+        int startIndex = 0;
+        int longestLength = 0;
+        int currentLength = 0;
+        for (int i = 1; i < tosses.length; i++)
+        {
+            if (tosses[i] == tosses[i - 1]) {
+                if (currentLength == 0) {
+                    startIndex = i - 1;
+                    currentLength = 1;
+                }
+                currentLength++;
+                if (currentLength > longestLength)
+                    longestLength = currentLength;
+            } else
+                currentLength = 0;
+        }
+        
+        if (longestLength == 0)
+            return -1;
+        else
+            return startIndex;
     }
 }
