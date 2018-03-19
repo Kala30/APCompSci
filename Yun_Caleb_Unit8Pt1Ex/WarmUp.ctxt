@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=arr
+comment0.target=int\ sumArray(int[])
+comment0.text=\r\n\ Adds\ up\ all\ the\ elements\ in\ arr\ and\ returns\ that\ sum.\r\n
+comment1.params=arr
+comment1.target=int\ findNegatives(int[])
+comment1.text=\r\n\ Returns\ the\ number\ of\ negative\ values\ in\ arr.\r\n
+comment2.params=arr
+comment2.target=int[]\ findLongest(java.lang.String[])
+comment2.text=\r\n\ Returns\ an\ array\ of\ two\ elements\:\r\n\ The\ index\ of\ the\ longest\ word\ in\ arr\r\n\ and\ the\ length\ of\ it.\r\n
+numComments=3

@@ -21,4 +21,7 @@ Object Oriented Programming
 Strings
 
 ## Unit 7
-Interfaces
+The Object Class and Interfaces
+
+## Unit 8
+Arrays and ArrayList
