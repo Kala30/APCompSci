@@ -36,6 +36,6 @@ public class FortuneTeller extends JApplet implements ActionListener
 
         // Create a random number so you can pick for your array
         //______blank_____________________________________
-        display.setText("  " + /*replace this with the random element*/);
+        display.setText("  " + "asdf");
     }
 }

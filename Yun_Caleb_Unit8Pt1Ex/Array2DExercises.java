@@ -7,6 +7,11 @@
  */
 public class Array2DExercises
 {
+    public static void main(String[] args)
+    {
+        print2D(pascalTriangle(10));
+    }
+    
     /**
      * Prints out seating chart with traditional for loop.
      */
@@ -107,5 +112,75 @@ public class Array2DExercises
             }
         }
         return true;
+    }
+    
+    /**
+     * Pascal's Triangle
+     */
+    public static int[][] pascalTriangle(int n)
+    {
+        int[][] triangle = new int[n][];
+        for (int i = 0; i < triangle.length; i++) {
+            triangle[i] = new int[i+1];
+            for (int j = 0; j < triangle[i].length; j++) {
+                if (j == 0 || i == j)
+                    triangle[i][j] = 1;
+                else
+                    triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j];
+            }
+        }
+        return triangle;
+    }
+
+    /**
+     * Returns a 12x12 array filled with all rows of multiplication tables up to 12.
+     */
+    public static int[][] multTable()
+    {
+        int[][] table = new int[12][12];
+        for (int i = 0; i < table.length; i++) {
+            for (int j = 0; j < table[i].length; j++) {
+                table[i][j] = (i+1) * (j+1);
+            }
+        }
+        return table;
+    }
+
+    /**
+     * Prints a 2D array with for-each loops.
+     */
+    public static void print2DForEach()
+    {
+        int[][] toReturn = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+
+        for (int[] row : toReturn)
+        {
+            for (int column : row)
+            {
+                System.out.print(column + "\t");
+            }
+            System.out.print("\n");
+        }
+    }
+
+    private static void print2D(int[][] arr) {
+        for (int[] row : arr)
+        {
+            for (int column : row)
+            {
+                System.out.print(column + "\t");
+            }
+            System.out.print("\n");
+        }
+    }
+
+    public static void multTable2(int n) {
+        int[][] table = new int[n][n];
+        for (int i = 0; i < table.length; i++) {
+            for (int j = 0; j < table[i].length; j++) {
+                System.out.print(((i+1) * (j+1)) + "\t");
+            }
+            System.out.print("\n");
+        }
     }
 }

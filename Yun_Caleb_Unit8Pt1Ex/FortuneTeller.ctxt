@@ -1,7 +1,6 @@
 #BlueJ class context
-comment0.target=FortuneTeller
-comment1.params=
-comment1.target=void\ init()
-comment2.params=e
-comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
-numComments=3
+comment0.params=
+comment0.target=void\ init()
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=2
