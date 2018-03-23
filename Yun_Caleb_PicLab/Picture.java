@@ -216,17 +216,9 @@ public class Picture extends SimplePicture
         }
     }
 
-    /* Main method for testing - each class in Java can have a main 
-     * method 
+    /**
+     * Sets all red and green values to 0.
      */
-    public static void main(String[] args) 
-    {
-        Picture beach = new Picture("beach.jpg");
-        beach.explore();
-        beach.zeroBlue();
-        beach.explore();
-    }
-
     public void keepOnlyBlue()
     {
         Pixel[][] pixels = this.getPixels2D();
@@ -240,6 +232,9 @@ public class Picture extends SimplePicture
         }
     }
 
+    /**
+     * Negates every pixel.
+     */
     public void negate()
     {
         Pixel[][] pixels = this.getPixels2D();
@@ -254,4 +249,137 @@ public class Picture extends SimplePicture
         }
 
     }
+
+    /**
+     * Turns the picture into only grayscale.
+     * Sets every pixel to average of RGB values.
+     */
+    public void grayscale()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        for (Pixel[] rowArray : pixels)
+        {
+            for (Pixel pixelObj : rowArray)
+            {
+                int avg = (pixelObj.getRed() + pixelObj.getGreen()+ pixelObj.getBlue()) / 3;
+                pixelObj.setRed(avg);
+                pixelObj.setGreen(avg);
+                pixelObj.setBlue(avg);
+            }
+        }
+    }
+
+    /**
+     * Makes fish more visible in water.jpg
+     */
+    public void fixUnderwater()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        for (Pixel[] rowArray : pixels)
+        {
+            for (Pixel pixelObj : rowArray)
+            {
+                //pixelObj.setBlue(Math.pow(1.01, pixelObj.getBlue()));
+                pixelObj.setGreen(pixelObj.getGreen()-64);
+            }
+        }
+    }
+
+    /**
+     * Mirrors a picture vertically right to left.
+     */
+    public void mirrorVerticalRightToLeft()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        Pixel leftPixel = null;
+        Pixel rightPixel = null;
+        int width = pixels[0].length;
+        for (int row = 0; row < pixels.length; row++)
+        {
+            for (int col = 0; col < width / 2; col++)
+            {
+                leftPixel = pixels[row][col];
+                rightPixel = pixels[row][width - 1 - col];
+                leftPixel.setColor(rightPixel.getColor());
+            }
+        } 
+    }
+
+    /**
+     * Mirrors a picture horizontally top to bottom.
+     */
+    public void mirrorHorizontal()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        Pixel topPixel = null;
+        Pixel botPixel = null;
+        int height = pixels.length;
+        for (int row = 0; row < pixels.length; row++)
+        {
+            for (int col = 0; col < pixels[0].length; col++)
+            {
+                topPixel = pixels[row][col];
+                botPixel = pixels[height - 1 - row][col];
+                botPixel.setColor(topPixel.getColor());
+            }
+        } 
+    }
+
+    /**
+     * Mirrors a picture horizontally bottom to top.
+     */
+    public void mirrorHorizontalBotToTop()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        Pixel topPixel = null;
+        Pixel botPixel = null;
+        int height = pixels.length;
+        for (int row = 0; row < pixels.length; row++)
+        {
+            for (int col = 0; col < pixels[0].length; col++)
+            {
+                topPixel = pixels[row][col];
+                botPixel = pixels[height - 1 - row][col];
+                topPixel.setColor(botPixel.getColor());
+            }
+        } 
+    }
+
+    /**
+     * Mirrors a picture along a diagonal.
+     */
+    public void mirrorDiagonal()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        Pixel topPixel = null;
+        Pixel botPixel = null;
+        int height = pixels.length;
+        int width = pixels[0].length;
+        if (height > width)
+            height = width;
+        else if (width > height)
+            width = height;
+
+        for (int row = 0; row < height; row++)
+        {
+            for (int col = 0; col < width; col++)
+            {
+                botPixel = pixels[col][row];
+                topPixel = pixels[row][col];
+                topPixel.setColor(botPixel.getColor());
+            }
+        } 
+    }
+
+    /* Main method for testing - each class in Java can have a main 
+     * method 
+     */
+    public static void main(String[] args) 
+    {
+        Picture beach = new Picture("beach.jpg");
+        beach.explore();
+        beach.zeroBlue();
+        beach.explore();
+    }
+
 } // this } is the end of class Picture, put all new methods before this

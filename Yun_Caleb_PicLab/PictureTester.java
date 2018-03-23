@@ -50,7 +50,8 @@ public class PictureTester
         swan.edgeDetection(10);
         swan.explore();
     }
-
+    
+    /** Method to test keepOnlyBlue */
     public static void testKeepOnlyBlue()
     {
         Picture beach = new Picture("beach.jpg");
@@ -58,13 +59,62 @@ public class PictureTester
         beach.explore();
     }
     
+    /** Method to test negate */
     public static void testNegate()
     {
         Picture beach = new Picture("beach.jpg");
         beach.negate();
         beach.explore();
     }
+    
+    /** Method to test grayscale */
+    public static void testGrayscale()
+    {
+        Picture gorge = new Picture("gorge.jpg");
+        gorge.grayscale();
+        gorge.explore();
+    }
+    
+    /** Method to test fixUnderwater */
+    public static void testfixUnderwater()
+    {
+        Picture water = new Picture("water.jpg");
+        water.fixUnderwater();
+        water.explore();
+    }
+    
+    /** Method to test mirrorVerticalRightToLeft */
+    public static void testMirrorVerticalRightToLeft()
+    {
+        Picture cycle = new Picture("redMotorcycle.jpg");
+        cycle.mirrorVerticalRightToLeft();
+        cycle.explore();
+    }
+    
+    /** Method to test mirrorHorizontal */
+    public static void testMirrorHorizontal()
+    {
+        Picture cycle = new Picture("redMotorcycle.jpg");
+        cycle.mirrorHorizontal();
+        cycle.explore();
+    }
 
+    /** Method to test mirrorHorizontalBotToTop */
+    public static void testMirrorHorizontalBotToTop()
+    {
+        Picture cycle = new Picture("redMotorcycle.jpg");
+        cycle.mirrorHorizontalBotToTop();
+        cycle.explore();
+    }
+    
+    /** Method to test mirrorDiagonal */
+    public static void testMirrorDiagonal()
+    {
+        Picture beach = new Picture("beach.jpg");
+        beach.mirrorDiagonal();
+        beach.explore();
+    }
+    
     /** Main method for testing.  Every class can have a main
      * method in Java */
     public static void main(String[] args)
@@ -73,11 +123,11 @@ public class PictureTester
         // and comment out the ones you don't want
         // to run
         //testZeroBlue();
-        testKeepOnlyBlue();
+        //testKeepOnlyBlue();
         //testKeepOnlyRed();
         //testKeepOnlyGreen();
         //testNegate();
-        //testGrayscale();
+        testGrayscale();
         //testFixUnderwater();
         //testMirrorVertical();
         //testMirrorTemple();
