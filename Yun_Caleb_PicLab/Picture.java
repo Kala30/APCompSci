@@ -371,6 +371,54 @@ public class Picture extends SimplePicture
         } 
     }
 
+    /**
+     * Mirrors arms on snowman.jpg
+     */
+    public void mirrorArms()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        Pixel topPixel = null;
+        Pixel botPixel = null;
+        //int height = pixels.length;
+        int start = 160;
+        int middle = 190;
+        int height = 200;
+        int end = (middle - start) + middle;
+        for (int row = start; row < end; row++)
+        {
+            for (int col = 0; col < pixels[0].length; col++)
+            {
+                topPixel = pixels[row][col];
+                botPixel = pixels[middle +(middle-row)][col];
+                botPixel.setColor(topPixel.getColor());
+            }
+        }
+    }
+    
+    /**
+     * Mirrors seagull in seagull.jpg
+     */
+    public void mirrorGull()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        Pixel topPixel = null;
+        Pixel botPixel = null;
+        //int height = pixels.length;
+        int start = 220;
+        int middle = 350;
+        int end = (middle - start) + middle;
+        for (int col = start; col < end; col++)
+        {
+            for (int row = 0; row < pixels.length; row++)
+            {
+                topPixel = pixels[row][col];
+                botPixel = pixels[row][middle +(middle-col)];
+                botPixel.setColor(topPixel.getColor());
+            }
+        }
+        
+    }
+
     /* Main method for testing - each class in Java can have a main 
      * method 
      */
