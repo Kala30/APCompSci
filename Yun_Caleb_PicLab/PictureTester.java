@@ -76,7 +76,7 @@ public class PictureTester
     }
     
     /** Method to test fixUnderwater */
-    public static void testfixUnderwater()
+    public static void testFixUnderwater()
     {
         Picture water = new Picture("water.jpg");
         water.fixUnderwater();
@@ -119,7 +119,7 @@ public class PictureTester
     public static void testMirrorArms()
     {
         Picture snowman = new Picture("snowman.jpg");
-        snowman.explore();
+        //snowman.explore();
         snowman.mirrorArms();
         snowman.explore();
     }
@@ -140,16 +140,20 @@ public class PictureTester
         // and comment out the ones you don't want
         // to run
         //testZeroBlue();
-        //testKeepOnlyBlue();
+        testKeepOnlyBlue();
         //testKeepOnlyRed();
         //testKeepOnlyGreen();
-        //testNegate();
+        testNegate();
         testGrayscale();
-        //testFixUnderwater();
+        testFixUnderwater();
         //testMirrorVertical();
+        testMirrorVerticalRightToLeft();
+        testMirrorHorizontal();
+        testMirrorHorizontalBotToTop();
+        testMirrorDiagonal();
         //testMirrorTemple();
-        //testMirrorArms();
-        //testMirrorGull();
+        testMirrorArms();
+        testMirrorGull();
         //testMirrorDiagonal();
         //testCollage();
         //testCopy();

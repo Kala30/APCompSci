@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=numlist
+comment0.target=ArrayProcessor(int[])
+comment1.params=
+comment1.target=int\ getTotal()
+comment1.text=\r\n\ Return\ the\ total\ of\ every\ number\ in\ the\ list.\r\n
+comment2.params=
+comment2.target=int\ getLargest()
+comment2.text=\r\n\ Returns\ the\ largest\ number\ in\ the\ list.\r\n
+comment3.params=
+comment3.target=int\ getSmallest()
+comment3.text=\r\n\ Returns\ the\ smallest\ number\ on\ the\ list.\r\n
+comment4.params=num
+comment4.target=int\ findIndexOf(int)
+comment4.text=\r\n\ Takes\ in\ one\ int\ parameter\ and\r\n\ returns\ the\ index\ of\ the\ first\ occurrence\ of\ that\ value.\r\n\ If\ that\ value\ does\ not\ occur\ on\ the\ list,\ return\ -1.\r\n
+comment5.params=num
+comment5.target=int\ findNumberOf(int)
+comment5.text=\r\n\ Takes\ in\ one\ int\ parameter\ and\r\n\ returns\ the\ number\ of\ times\ that\ value\ occurs\ on\ the\ list.\r\n
+comment6.params=num
+comment6.target=int\ findLongestBlock(int)
+comment6.text=\r\n\ Takes\ in\ one\ integer\ parameter\ and\r\n\ returns\ the\ size\ of\ the\ largest\ consecutive\ block\ of\ that\ value.\r\n
+numComments=7

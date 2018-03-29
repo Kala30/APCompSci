@@ -279,8 +279,9 @@ public class Picture extends SimplePicture
         {
             for (Pixel pixelObj : rowArray)
             {
-                //pixelObj.setBlue(Math.pow(1.01, pixelObj.getBlue()));
-                pixelObj.setGreen(pixelObj.getGreen()-64);
+                if (pixelObj.getRed() < 20)
+                    //pixelObj.setGreen(Math.pow(1.01, pixelObj.getBlue()));
+                    pixelObj.setGreen(pixelObj.getGreen()-32);
             }
         }
     }

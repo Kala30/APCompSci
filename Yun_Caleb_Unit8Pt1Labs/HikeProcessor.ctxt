@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hike
+comment0.target=int\ bobHikeDifficulty(int[])
+comment0.text=\r\n\ Returns\ the\ difficulty\ of\ a\ hike.\r\n\ Total\ elevation\ change.\r\n
+comment1.params=hike
+comment1.target=int\ steveHikeDifficulty(int[])
+comment1.text=\r\n\ Returns\ the\ difficulty\ of\ a\ hike.\r\n\ Largest\ elevation\ change.\r\n
+numComments=2
