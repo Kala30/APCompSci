@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=TwoDimArrayProcessor
+comment0.text=\n\ Two-Dimensional\ Array\ Processing\n\ \n\ @author\ Caleb\ Yun\n\ @version\ 3/29/2018\n
+comment1.params=numlist
+comment1.target=TwoDimArrayProcessor(int[][])
+comment2.params=
+comment2.target=boolean\ isSquare()
+comment2.text=\n\ Returns\ true\ if\ array\ is\ square.\n
+comment3.params=
+comment3.target=int\ getTotal()
+comment3.text=\n\ Returns\ the\ total\ of\ every\ number\ in\ the\ matrix.\n
+comment4.params=num
+comment4.target=int\ findNumberOf(int)
+comment4.text=\n\ Returns\ the\ number\ of\ times\ num\ appears\ in\ the\ matrix.\n
+comment5.params=
+comment5.target=boolean\ isMagicSquare()
+comment5.text=\n\ Returns\ true\ if\ numlist\ is\ a\ magic\ square.\n
+numComments=6

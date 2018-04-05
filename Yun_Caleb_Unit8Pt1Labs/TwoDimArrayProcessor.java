@@ -34,7 +34,7 @@ public class TwoDimArrayProcessor
     public int getTotal()
     {
         int sum = 0;
-        for (int row : numlist) {
+        for (int[] row : numlist) {
             for (int col : row) {
                 sum += col;
             }
@@ -48,7 +48,7 @@ public class TwoDimArrayProcessor
     public int findNumberOf(int num)
     {
         int count = 0;
-        for (int row : numlist) {
+        for (int[] row : numlist) {
             for (int col : row) {
                 if (col == num)
                     count++;
@@ -65,19 +65,19 @@ public class TwoDimArrayProcessor
         if (!this.isSquare())
             return false;
         int sum = 0;
-        // Rows
+
         for (int i = 0; i < numlist.length; i++) {
+            // Rows
             int rowSum = 0;
             for (int j = 0; j < numlist.length; j++) {
                 rowSum += numlist[i][j];
             }
             if (i == 0)
-                sum = rowSum
+                sum = rowSum;
             else if (rowSum != sum)
                 return false;
-        }
-        // Columns
-        for (int i = 0; i < numlist.length; i++) {
+
+            // Columns
             int colSum = 0;
             for (int j = 0; j < numlist.length; j++) {
                 colSum += numlist[j][i];
@@ -85,26 +85,28 @@ public class TwoDimArrayProcessor
             if (colSum != sum)
                 return false;
         }
-        
+
         // Diagonals
         int diaSum = 0;
+        int diaSum2 = 0;
         for (int i = 0; i < numlist.length; i++) {
+            // Left to Right
             for (int j = 0; j < numlist.length; j++) {
                 if (i == j)
-                    diaSum = numlist[i][j];
-            }        
-        }
-        if (daiSum != sum)
-                return false;
-        for (int i = 0; i < numlist.length; i++) {
-            int diaSum = 0;
+                    diaSum += numlist[i][j];
+            }
+
+            // Right to left
             for (int j = 0; j < numlist.length; j++) {
-                if (i == j)
-                    diaSum = numlist[i][j];
+                if (i == numlist.length - j - 1)
+                    diaSum2 += numlist[i][j];
             }
         }
-        if (daiSum != sum)
-                return false;
+        if (diaSum != sum)
+            return false;
+        if (diaSum2 != sum)
+            return false;
+        
         return true;
     }
 }
