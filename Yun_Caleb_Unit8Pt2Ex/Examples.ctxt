@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=java.util.ArrayList\ createList()
+comment2.params=list
+comment2.target=int\ plusMinus(java.util.ArrayList)
+comment3.params=list1\ list2
+comment3.target=int\ compareElements(java.util.ArrayList,\ java.util.ArrayList)
+numComments=4

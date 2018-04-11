@@ -18,18 +18,16 @@ public class Exercises
 
         //System.out.println("reverse(): " + reverse(list));
 
-        //System.out.println("plusMinus(list): " + plusMinus(numList));
-
         //removeSmallest(numList)
         //System.out.println("removeSmallest(): " + numList);
 
-        list.add("Gandalf"); list.add("Gandalf"); list.add("Legolas");
+        list.add("Gandalf"); list.add("Gandalf"); list.add("Gandalf"); list.add("Frodo"); list.add("Legolas");
         System.out.println(list);
         removeDuplicates(list);
         System.out.println("removeDuplicates(): " + list);
 
-        switchPairs(list);
-        System.out.println("switchPairs(): " + list);
+        //switchPairs(list);
+        //System.out.println("switchPairs(): " + list);
     }
 
     public static ArrayList<String> createList()
@@ -57,22 +55,6 @@ public class Exercises
             reversed.add(0, str);
         }
         return reversed;
-    }
-
-    public static int plusMinus(ArrayList<Integer> list)
-    {
-        int sum = 0;
-        int i = 0;
-        //for (int i = 0; i < list.size(); i++)
-        for (Integer num : list)
-        {
-            if (i % 2 == 0)
-                sum += num;
-            else
-                sum -= num;
-            i++;
-        }
-        return sum;
     }
 
     // Problem #2
