@@ -95,6 +95,8 @@ public class Exercises
                 list.set(i+1, temp);
             }
         }
+        
+        System.out.println(list);
     }
 
     // Problem #5
