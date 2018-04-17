@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Stack
+comment1.params=name
+comment1.target=void\ push(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ pop()
+comment3.params=
+comment3.target=java.lang.String\ peek()
+numComments=4

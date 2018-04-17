@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HappyNumbers
+comment0.text=\n\ 3.\ Happy\ Numbers\n\n\ @author\ Caleb\ Yun\n\ @version\ 4/16/2018\n
+comment1.params=num
+comment1.target=boolean\ isHappy(int)
+comment2.params=num
+comment2.target=int\ sumOfSquaresOfDigits(int)
+numComments=3

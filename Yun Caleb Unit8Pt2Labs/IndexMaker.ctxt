@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=IndexMaker
+comment1.params=
+comment1.target=IndexMaker()
+comment2.params=
+comment2.target=void\ showIndex()
+comment3.params=x
+comment3.target=java.lang.String\ getIndexLine(int)
+numComments=4

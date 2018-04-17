@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=StacksLab
+comment0.text=\n\ 2.\ Stacks\ Lab\n\n\ @author\ Caleb\ Yun\n\ @version\ 4/16/2018\n
+comment1.params=
+comment1.target=StacksLab()
+comment2.params=str
+comment2.target=void\ push(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ pop()
+comment4.params=
+comment4.target=java.lang.String\ peek()
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CompressionTester
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testCompress1()
+comment3.params=
+comment3.target=void\ testExpand1()
+numComments=4
