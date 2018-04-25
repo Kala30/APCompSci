@@ -32,4 +32,3 @@ public class CheckingAccount extends BankAccount
             super.withdraw(TRANSACTION_FEE * (transactionCount - FREE_TRANSACTIONS));
     }
 }
-
