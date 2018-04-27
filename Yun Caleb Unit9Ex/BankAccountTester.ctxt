@@ -1,13 +1,12 @@
 #BlueJ class context
-comment0.target=BankAccountTester
+comment0.params=
+comment0.target=void\ setUp()
 comment1.params=
-comment1.target=void\ setUp()
+comment1.target=void\ testTimeDepositAccount1()
 comment2.params=
-comment2.target=void\ testTimeDepositAccount1()
+comment2.target=void\ testTimeDepositAccount2()
 comment3.params=
-comment3.target=void\ testTimeDepositAccount2()
+comment3.target=void\ testTimeDepositAccount3()
 comment4.params=
-comment4.target=void\ testTimeDepositAccount3()
-comment5.params=
-comment5.target=void\ testTimeDepositAccount4()
-numComments=6
+comment4.target=void\ testTimeDepositAccount4()
+numComments=5

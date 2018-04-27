@@ -1,10 +1,8 @@
 #BlueJ class context
-comment0.target=SavingsAccount
-comment0.text=\n\ Savings\ Account\ Example\n\ \n\ @author\ Caleb\ Yun\n\ @version\ 4/19/2018\n
-comment1.params=
-comment1.target=SavingsAccount()
-comment2.params=balance\ interestRate
-comment2.target=SavingsAccount(double,\ double)
-comment3.params=
-comment3.target=void\ endOfMonth()
-numComments=4
+comment0.params=
+comment0.target=SavingsAccount()
+comment1.params=balance\ interestRate
+comment1.target=SavingsAccount(double,\ double)
+comment2.params=
+comment2.target=void\ endOfMonth()
+numComments=3
