@@ -10,9 +10,9 @@ public class Tester
     public static void main(String[] args) throws Exception
     {
         // Test BankAccount
-        BankAccount acct1 = new BankAccount(500);
-        acct1.deposit(55);
-        System.out.println("$" + acct1.getBalance());
+        //BankAccount acct1 = new BankAccount(500);
+        //acct1.deposit(55);
+        //System.out.println("$" + acct1.getBalance());
 
         // Test SavingsAccount
         SavingsAccount acct2 = new SavingsAccount(500, 0.01);

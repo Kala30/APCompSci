@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TimeDepositAccount
+comment0.text=\n\ Time\ Deposit\ Account\n\n\ @author\ Caleb\ Yun\n\ @version\ 4/26/2018\n
+comment1.params=
+comment1.target=TimeDepositAccount()
+comment2.params=interestRate\ months\ penalty
+comment2.target=TimeDepositAccount(double,\ int,\ double)
+comment3.params=amount
+comment3.target=void\ withdraw(double)
+comment4.params=
+comment4.target=void\ endOfMonth()
+numComments=5

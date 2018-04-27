@@ -5,7 +5,7 @@
  * @author Caleb Yun
  * @version 4/19/2018
  */
-public class BankAccount
+public abstract class BankAccount
 {
     private double balance;
     
@@ -37,4 +37,6 @@ public class BankAccount
         withdraw(amount);
         account.deposit(amount);
     }
+    
+    public abstract void endOfMonth();
 }

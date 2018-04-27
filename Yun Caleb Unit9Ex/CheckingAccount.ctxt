@@ -1,10 +1,12 @@
 #BlueJ class context
-comment0.params=balance\ freeTransactions\ transactionFee
-comment0.target=CheckingAccount(double,\ int,\ double)
-comment1.params=amount
-comment1.target=void\ deposit(double)
+comment0.target=CheckingAccount
+comment0.text=\n\ Checking\ Account\n\ \n\ @author\ Caleb\ Yun\n\ @version\ 4/19/2018\n
+comment1.params=balance\ freeTransactions\ transactionFee
+comment1.target=CheckingAccount(double,\ int,\ double)
 comment2.params=amount
-comment2.target=void\ withdraw(double)
-comment3.params=
-comment3.target=void\ endOfMonth()
-numComments=4
+comment2.target=void\ deposit(double)
+comment3.params=amount
+comment3.target=void\ withdraw(double)
+comment4.params=
+comment4.target=void\ endOfMonth()
+numComments=5
