@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Poem
+comment0.text=\n\ Poem\ Abstract\ Class\n\n\ @author\ Caleb\ Yun\n\ @version\ 4/30/2018\n
+comment1.params=
+comment1.target=int\ numLines()
+comment2.params=k
+comment2.target=int\ getSyllables(int)
+comment3.params=
+comment3.target=void\ printRhythm()
+numComments=4
