@@ -23,5 +23,5 @@ public abstract class Item
         return "Title: " + title + "\nComment: " + comment;
     }
     
-    public abstract String getItemDescription();
+    public abstract String getShortDescription();
 }

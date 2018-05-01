@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Robot
+comment1.params=
+comment1.target=Robot()
+comment2.params=
+comment2.target=void\ chargeBattery()
+comment3.params=
+comment3.target=void\ useBattery()
+numComments=4
