@@ -1,6 +1,4 @@
 #BlueJ class context
-comment0.target=Pet
-comment0.text=\n\ Pet\ Interface\n\n\ @author\ Caleb\ Yun\n\ @version\ 4/30/2018\n
-comment1.params=
-comment1.target=void\ play()
-numComments=2
+comment0.params=
+comment0.target=void\ play()
+numComments=1

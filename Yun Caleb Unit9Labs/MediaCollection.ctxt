@@ -1,11 +1,10 @@
 #BlueJ class context
-comment0.target=MediaCollection
-comment1.params=
-comment1.target=MediaCollection()
-comment2.params=item
-comment2.target=void\ addItem(Item)
+comment0.params=
+comment0.target=MediaCollection()
+comment1.params=item
+comment1.target=void\ addItem(Item)
+comment2.params=
+comment2.target=void\ showAllShortDescriptions()
 comment3.params=
-comment3.target=void\ showAllShortDescriptions()
-comment4.params=
-comment4.target=void\ showAllLongDescriptions()
-numComments=5
+comment3.target=void\ showAllLongDescriptions()
+numComments=4

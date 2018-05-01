@@ -1,7 +1,6 @@
 #BlueJ class context
-comment0.target=Dog
+comment0.params=
+comment0.target=Dog()
 comment1.params=
-comment1.target=Dog()
-comment2.params=
-comment2.target=void\ play()
-numComments=3
+comment1.target=void\ play()
+numComments=2

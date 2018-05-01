@@ -1,10 +1,8 @@
 #BlueJ class context
-comment0.target=Video
-comment0.text=\n\ Write\ a\ description\ of\ class\ Video\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=title\ comment\ director
-comment1.target=Video(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.params=title\ comment\ director
+comment0.target=Video(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getShortDescription()
 comment2.params=
-comment2.target=java.lang.String\ getShortDescription()
-comment3.params=
-comment3.target=java.lang.String\ toString()
-numComments=4
+comment2.target=java.lang.String\ toString()
+numComments=3

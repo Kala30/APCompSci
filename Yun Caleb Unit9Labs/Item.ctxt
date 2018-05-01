@@ -1,12 +1,10 @@
 #BlueJ class context
-comment0.target=Item
-comment0.text=\n\ Item\ Class\n\ \n\ @author\ Caleb\ Yun\n\ @version\ 4/27/2018\n
-comment1.params=title\ comment
-comment1.target=Item(java.lang.String,\ java.lang.String)
+comment0.params=title\ comment
+comment0.target=Item(java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getTitle()
 comment2.params=
-comment2.target=java.lang.String\ getTitle()
+comment2.target=java.lang.String\ toString()
 comment3.params=
-comment3.target=java.lang.String\ toString()
-comment4.params=
-comment4.target=java.lang.String\ getShortDescription()
-numComments=5
+comment3.target=java.lang.String\ getShortDescription()
+numComments=4
