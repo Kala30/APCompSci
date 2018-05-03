@@ -33,17 +33,14 @@ public class Country implements Comparable
 
     public boolean equals(Object other)
     {
-        if (other != null)
-            return name.equals(((Country)other).getName());
-        else
-            return false;
+        return name.equals(((Country)other).getName());
     }
 
     public int compareTo(Object other)
     {
-        return population - other.getPopulation;
+        return population - ((Country)other).getPopulation();
     }
-    
+
     public String toString()
     {
         return name + ": " + population;

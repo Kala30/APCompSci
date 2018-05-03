@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NameComparator()
+comment1.params=ascend
+comment1.target=NameComparator(boolean)
+comment2.params=country1\ country2
+comment2.target=int\ compare(Country,\ Country)
+numComments=3
