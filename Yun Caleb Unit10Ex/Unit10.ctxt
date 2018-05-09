@@ -5,4 +5,6 @@ comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=a\ m\ n\ target
 comment2.target=int\ search(int[],\ int,\ int,\ int)
-numComments=3
+comment3.params=arr
+comment3.target=void\ shuffle(java.lang.Object[])
+numComments=4
